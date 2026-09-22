@@ -1,7 +1,23 @@
 import { PhotoGrid } from '@/components/PhotoGrid';
 import { Footer } from '@/components/Footer';
 import { photos } from '@/lib/photos';
+import type { Metadata } from 'next';
 
+
+export const metadata: Metadata = {
+  title: 'Photography',
+  description:
+    'Location and landscape photography by Studio Solarch, shot for resorts, hotels, and premium properties across Goa and beyond.',
+  alternates: {
+    canonical: 'https://www.studiosolarch.com/photography',
+  },
+  openGraph: {
+    title: 'Photography | Studio Solarch',
+    description:
+      'Location and landscape photography by Studio Solarch, shot for resorts, hotels, and premium properties.',
+    url: 'https://www.studiosolarch.com/photography',
+  },
+};
 export default function PhotographyPage() {
   return (
     <>

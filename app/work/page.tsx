@@ -1,6 +1,24 @@
 import { FeaturedWork } from '@/components/FeaturedWork';
 import { Footer } from '@/components/Footer';
 import { projects } from '@/lib/projects';
+import type { Metadata } from 'next';
+
+
+
+export const metadata: Metadata = {
+  title: 'Selected Work',
+  description:
+    'Web development projects by Studio Solarch — Next.js websites built for hotels, hospitality, and premium brands, with precision animation and considered design.',
+  alternates: {
+    canonical: 'https://www.studiosolarch.com/work',
+  },
+  openGraph: {
+    title: 'Selected Work | Studio Solarch',
+    description:
+      'Web development projects by Studio Solarch — Next.js websites built for hotels, hospitality, and premium brands.',
+    url: 'https://www.studiosolarch.com/work',
+  },
+};
 
 export default function WorkPage() {
   return (
