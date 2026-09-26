@@ -9,10 +9,10 @@ import { ContactModal } from './ContactModal';
 gsap.registerPlugin(ScrollTrigger);
 
 const socials = [
-  { label: 'Email', href: 'mailto:hello@karrycreative.studio', text: 'hello@karrycreative.studio', Icon: Mail },
-  { label: 'Instagram', href: 'https://www.instagram.com/karrycoder007', text: '@karrycoder007', Icon: Instagram },
-  { label: 'YouTube', href: 'https://www.youtube.com/@unfiltered_karry', text: '@unfiltered_karry', Icon: Youtube },
-  { label: 'Portfolio', href: 'https://kartikbhat.me', text: 'kartikbhat.me', Icon: Globe },
+  { label: 'Email', href: 'mailto:hello@studiosolarch.com', text: 'hello@studiosolarch.com', Icon: Mail },
+  { label: 'Instagram', href: 'https://www.instagram.com/karrycoder007', text: '@studiosolarch', Icon: Instagram },
+  { label: 'YouTube', href: 'https://www.youtube.com/@unfiltered_karry', text: '@studiosolarch', Icon: Youtube },
+  
 ];
 
 export function Footer() {

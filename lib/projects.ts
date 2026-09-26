@@ -3,8 +3,8 @@ import { Project } from "@/components/FeaturedWork";
 
 export const projects: Project[] = [
   {
-    id: 'cities4peace',
-    title: 'Cities4Peace',
+    id: 'Project-1',
+    title: 'From India With Love Website',
     category: 'Web Development',
     year: '2026',
     image: '/work/cities4peace.jpg', // swap with your real screenshot
@@ -24,9 +24,9 @@ export const projects: Project[] = [
   // every field below with what actually happened on each project.
   {
     id: 'project-2',
-    title: 'Project Title',
+    title: 'Anita Raicar Portfolio',
     category: 'Web Development', // or 'Photography' / 'Filmmaking'
-    year: '2026',
+    year: '2025',
     image: '/work/project-2.jpg',
     href: '#',
     challenge: 'What did the client actually need?',
@@ -35,48 +35,5 @@ export const projects: Project[] = [
     metricLabel: '', // e.g. 'Load Time', 'Pages Delivered' — omit if none
     metricValue: '',
   },
-  {
-    id: 'project-3',
-    title: 'Project Title',
-    category: 'Photography',
-    year: '2026',
-    image: '/work/project-3.jpg',
-    href: '#',
-    challenge: '',
-    approach: '',
-    result: '',
-  },
-  {
-    id: 'project-4',
-    title: 'Project Title',
-    category: 'Filmmaking',
-    year: '2026',
-    image: '/work/project-4.jpg',
-    href: '#',
-    challenge: '',
-    approach: '',
-    result: '',
-  },
-  {
-    id: 'project-5',
-    title: 'Project Title',
-    category: 'Web Development',
-    year: '2026',
-    image: '/work/project-5.jpg',
-    href: '#',
-    challenge: '',
-    approach: '',
-    result: '',
-  },
-  {
-    id: 'project-6',
-    title: 'Project Title',
-    category: 'Web Development',
-    year: '2026',
-    image: '/work/project-6.jpg',
-    href: '#',
-    challenge: '',
-    approach: '',
-    result: '',
-  },
+  
 ];

@@ -8,8 +8,9 @@ import { useEffect, useState } from 'react';
 
 const links = [
   { href: '/', label: 'Home', n: '01' },
-  { href: '/work', label: 'Work', n: '02' },
+  { href: '/work', label: 'Projects', n: '02' },
   { href: '/photography', label: 'Photography', n: '03' },
+  { href: '/pricing', label: 'Pricing', n: '03' }
 ];
 
 const ease = [0.65, 0, 0.35, 1] as const;

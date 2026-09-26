@@ -71,7 +71,7 @@ export function About() {
       className="px-6 md:px-10 py-24 md:py-32 border-t" 
       style={{ borderColor: 'var(--line)' }}
     >
-      <div className="grid lg:grid-cols-[1fr_1.3fr] gap-10 lg:gap-16 items-center">
+      <div className="grid lg:grid-cols-[1fr_1.3fr] gap-10 lg:gap-1 items-center">
         
         {/* Image Container with Reveal Effect */}
         <div
@@ -82,7 +82,7 @@ export function About() {
           {/* Inner wrapper managing the zoom animation */}
           <div ref={imageRef} className="relative w-full h-full">
             <Image
-              src="https://images.unsplash.com/photo-1785099159811-b7781d0b3878?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D"
+              src="/ss.png"
               alt="Studio Solarch — at work"
               fill
               className="object-cover "
