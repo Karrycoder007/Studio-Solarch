@@ -16,7 +16,8 @@ export function Hero() {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power4.out' } });
 
-      tl.from('.hero-eyebrow', { opacity: 0, y: -10, duration: 1.1 }, 0.2)
+      tl.from('.hero-category', { opacity: 0, y: -10, duration: 1 }, 0.1)
+        .from('.hero-eyebrow', { opacity: 0, y: -10, duration: 1.1 }, 0.2)
         .from(
           '.hero-word-inner',
           { yPercent: 115, opacity: 0, duration: 1.6, stagger: 0.32, transformOrigin: '0% 100%' },
@@ -44,6 +45,13 @@ export function Hero() {
       <AmbientBackground />
 
       <div className="relative max-w-4xl mx-auto text-center flex flex-col items-center">
+        <p
+          className="hero-category font-mono text-[10px] md:text-xs uppercase tracking-[0.2em] mb-3"
+          style={{ color: 'var(--accent-warm)' }}
+        >
+          Website Development &amp; Photography
+        </p>
+
         <p
           className="hero-eyebrow font-display italic text-lg md:text-xl mb-6"
           style={{ color: 'var(--fg-muted)' }}
@@ -75,11 +83,11 @@ export function Hero() {
           </div>
         </h1>
 
-       <p className="hero-subtitle max-w-lg mt-8 font-body text-sm md:text-base opacity-70 leading-relaxed">
-  Web development and photography for hotels, hospitality, and premium brands —
-  built end to end by one studio. Sites engineered in Next.js,
-  stories shot on location.
-</p>
+        <p className="hero-subtitle max-w-lg mt-8 font-body text-sm md:text-base opacity-70 leading-relaxed">
+          Web development and photography for hotels, hospitality, and premium brands —
+          built end to end by one studio. Sites engineered in Next.js,
+          stories shot on location.
+        </p>
 
         <Link
           href="/work"
