@@ -144,7 +144,7 @@ export function FeaturedProjects({ projects }: { projects: FeaturedProject[] }) 
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-out group-hover:scale-[1.03]"
+                    className="object-cover  transition-all duration-700 ease-out group-hover:scale-[1.03]"
                     sizes="(min-width: 768px) 46vw, 92vw"
                   />
                 </div>

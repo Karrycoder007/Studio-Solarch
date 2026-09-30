@@ -86,7 +86,7 @@ export function PricingSection() {
       </div>
 
       <div
-        className="pricing-toggle inline-flex rounded-full p-1 mb-10"
+        className="pricing-toggle inline-flex rounded-full p-2 mb-20"
         style={{ border: '1px solid var(--line)', background: 'var(--surface)' }}
       >
         {(['websites', 'photography'] as const).map((key) => (

@@ -20,22 +20,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <main style={{ backgroundColor: 'var(--bg)' }} className="transition-colors">
-      <section className="mx-auto max-w-6xl px-6 pt-32 sm:pt-40 pb-8">
-        <p className="font-mono text-xs tracking-widest" style={{ color: 'var(--accent-warm)' }}>
-          PRICING GUIDE — 2026
-        </p>
-        <h1 className="mt-3 font-serif text-4xl sm:text-6xl" style={{ color: 'var(--fg)' }}>
-          Craft that travels.{' '}
-          <span className="italic" style={{ color: 'var(--accent)' }}>
-            Priced clearly.
-          </span>
-        </h1>
-        <p className="mt-5 max-w-xl" style={{ color: 'var(--fg-muted)' }}>
-          Two crafts, one studio. Browse website development and real estate
-          photography pricing below — every project is scoped individually,
-          these are starting points.
-        </p>
-      </section>
+      
 
       <PricingSection />
       <Footer/>
